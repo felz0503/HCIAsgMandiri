@@ -1,0 +1,137 @@
+/* body */
+body{
+    margin: 0;
+    background-color: rgba(214, 194, 254, 0.941);
+}
+
+/* header */
+header{
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 180px;
+}
+
+/* navbar */
+.navbar{
+    background-color: black;
+    position: sticky;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(127, 127, 244);
+    color: aliceblue;
+    padding: 15px;
+}
+
+/* footer */
+footer{
+    background: black;
+    position: relative;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.footer-container p{
+    color: aliceblue;
+    text-align: center;
+    margin: 3px;
+    max-width: 500px;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-links a:hover{
+    background-color: rgb(127, 127, 244);
+}
+
+/* content */
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 10px;
+    padding: 20px;
+    background: #fcffbfe4;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.form-content{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.button{
+    background-color: rgb(254, 185, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 27px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-message{
+    margin: 3px;
+    color: rgb(210, 1, 1);
+    font-weight: bold;
+    font-size: large;
+    background-color: lightgrey;
+}

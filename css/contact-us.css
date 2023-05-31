@@ -1,0 +1,131 @@
+/* body */
+body{
+    margin: 0;
+    background-color: rgba(214, 194, 254, 0.941);
+}
+
+/* header */
+header{
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 180px;
+}
+
+/* navbar */
+.navbar{
+    background-color: black;
+    position: sticky;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(127, 127, 244);
+    color: aliceblue;
+    padding: 15px;
+}
+
+/* footer */
+footer{
+    background: black;
+    position: relative;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.footer-container p{
+    color: aliceblue;
+    text-align: center;
+    margin: 3px;
+    max-width: 500px;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-links a:hover{
+    background-color: rgb(127, 127, 244);
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.content-container p{
+    margin: 3px;
+    font-size: medium;
+    text-align: center;
+    max-width: 600px;
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(240, 248, 255, 0.796);
+    border-radius: 20px;
+    box-shadow: 10 10px 10 px 10 black;
+}
+
+.row{
+    content: "";
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.column{
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}

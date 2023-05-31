@@ -1,0 +1,148 @@
+/* body */
+body{
+    margin: 0;
+    background-color: rgba(214, 194, 254, 0.941);
+}
+
+/* header */
+header{
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 180px;
+}
+
+/* navbar */
+.navbar{
+    background-color: black;
+    position: sticky;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(127, 127, 244);
+    color: aliceblue;
+    padding: 15px;
+}
+
+/* footer */
+footer{
+    background: black;
+    position: relative;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.footer-container p{
+    color: aliceblue;
+    text-align: center;
+    margin: 3px;
+    max-width: 500px;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+}
+
+.footer-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-links a:hover{
+    background-color: rgb(127, 127, 244);
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.a-c{
+    display: flex;
+    justify-content: center;
+}
+
+.content-container a{
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.content-container a:hover{
+    color: rgb(94, 0, 181);
+    text-decoration: line-through;
+}
+
+.h{
+    color: rgb(60, 0, 117);
+    margin: 0px;
+}
+
+.content-container p{
+    font-size: large;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}

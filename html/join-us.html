@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+
+    <link rel="stylesheet" href="/css/join-us.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <header>
+        <a href="home.html">
+            <img src="/asset/astronom-logo.png" alt="logo" class="logo">
+        </a>
+    </header>
+
+    <!-- navbar -->
+    <nav>
+        <ul class="navbar">
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+            <li>
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li>
+                <a href="join-us.html">Join Us</a>
+            </li>
+            <li>
+                <a href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+    </nav>
+
+    <!-- contents -->
+    <h1>Join Our Community!</h1>
+    <div>
+        <form action="" class="container">
+
+            <input type="text" name="fullname" id="fullname" placeholder="Full Name" class="form-content">
+
+            <input type="text" name="email" id="email" placeholder="Email" class="form-content">
+
+            <input type="text" name="gender" id="gender" placeholder="Gender" class="form-content">
+
+            <textarea name="address" id="address" placeholder="Address" class="form-content"></textarea>
+
+            <div>
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement">Agree to Our Terms and Conditions</label>
+            </div>
+
+            <div id="error" class="error-message"></div>
+
+            <div class="button-container">
+                <input type="submit" value="Submit" class="button" onclick="on_submit()">
+            </div>
+        </form>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <a href="home.html">
+                <img src="/asset/astronom-logo.png" alt="logo" class="logo">
+            </a>
+
+            <p>Space isn't remote at all. When it is dark enough, you can see the stars.</p>
+            <p>The stars, the nature hung in heaven, and filled their lamps with everlasting oil, give due light to the misled and solitary traveller.
+            </p>
+
+            <ul class="footer-links">
+                <li>
+                    <a href="https://www.spacex.com/">
+                        <img src="/asset/spacex-icon.png" alt="" class="footer-icon" style="height: 41px;width: 120px;">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/c/NASA">
+                        <img src="/asset/youtube-icon.png" alt="" class="footer-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://hubblesite.org/">
+                        <img src="/asset/hubble-icon.png" alt="" class="footer-icon">
+                    </a>
+                </li>
+             </ul>
+        </div>
+    </footer>
+
+    <script src="/js/join-us.js"></script>
+
+</body>
+</html>
